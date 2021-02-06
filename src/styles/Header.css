@@ -5,7 +5,19 @@
     padding: 0 !important;
 }
 
-.navbar-brand:hover {
+.navbar.active {
+    background-color: #f2a154;
+}
+
+.navbar-brands.active {
+    color: #fdf9c2 !important;
+}
+
+.navbar-brands.active:hover {
+    color: #ffffff !important;
+}
+
+.navbar-brands:hover {
     color: #f57d0c !important;
 }
 
@@ -14,11 +26,19 @@
     font-weight: 600;
 }
 
+.nav-link.active {
+    color: #fdf9c2 !important;
+}
+
+.nav-link.active:hover {
+    color: #ffffff !important;
+}
+
 .nav-link:hover {
     color: #f57d0c !important; 
 }
 
-.navbar-brand {
+.navbar-brands {
     color: #f2a154 !important;
     font-family: 'Sora', sans-serif;
     font-size: 32px;
