@@ -10,10 +10,8 @@ function Header() {
   function changeBackground() {
     if(window.scrollY>=90) {
       setNavbar("navbar active");
-      console.log("active : navbar = " + navbar);
     } else {
       setNavbar("navbar");
-      console.log("inactive : navbar = " + navbar);
     }
   }
 

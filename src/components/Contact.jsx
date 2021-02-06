@@ -16,7 +16,7 @@ function ContactUs() {
     return <div id="contact">
         <h2 data-aos="fade-up" className="contact-title">Contact Us</h2>
         <div className="row">
-            <div data-aos = "fade-right" className="col">
+            <div data-aos = "fade-down" className="col">
                 <img className="contact-img" src={contact} />
                 <h4 className="contact-us">Have something to discuss? Get in touch</h4>
                 <div className="contact-details">
@@ -25,7 +25,7 @@ function ContactUs() {
                     <div className="detail"><i class="fas fa-map-marker-alt"></i>&emsp;&emsp;&nbsp;Flat No 703, Tower L, Homes 121, Gh 001, Sector 121, Noida &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gautam Buddha Nagar, UP - 201307</div>
                 </div>
             </div>
-            <div data-aos = "fade-left" className="col">
+            <div data-aos = "fade-down" className="col">
                 <img className="contact-img email-img" src={email} />
                 <div className="contact-form">
                     <Form>

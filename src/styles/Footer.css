@@ -14,3 +14,9 @@
 .footer-text:hover {
     color: #f2a154;
 }
+
+@media (max-width: 1080px) {
+    .footer {
+        width: 1200px;
+    }
+}

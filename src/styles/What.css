@@ -14,11 +14,15 @@
 
 @media (max-width:1080px) {
     #what {
-        height: 1800px;
-        width: 1300px;
+        height: 2200px;
+        width: 1200px;
     }
 
     .what-title {
         font-size: 80px;
+    }
+
+    .services {
+        margin-top: 100px;
     }
 }
