@@ -14,3 +14,14 @@
 .footer-text:hover {
     color: #f2a154;
 }
+
+@media screen and (max-width: 1080px) {
+    .footer-text {
+        font-size: 40px !important;
+        padding-top: 70px;
+    }
+
+    .footer {
+        height: 180px !important;
+    }
+}

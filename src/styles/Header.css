@@ -30,3 +30,15 @@
     display: flex;
     padding: 8px 24px 0 0 !important;
 }
+
+@media screen and (max-width:1080px) {
+
+    .navbar-brand {
+        font-size: 50px !important;
+    }
+
+    .nav-link {
+        text-align: center;
+        font-size: 32px;
+    }
+}

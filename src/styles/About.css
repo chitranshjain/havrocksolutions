@@ -23,3 +23,19 @@
     color: #f7f6e7;
     font-size: 22px;
 }
+
+@media screen and (max-width: 1080px) {
+    .about-img {
+        height: 660px;
+        margin-top: 180px;
+    }
+
+    .about-title {
+        font-size: 80px;
+    }
+
+    .about-content {
+        font-size: 40px;
+        padding: 20px;
+    }
+}

@@ -11,3 +11,15 @@
     font-size: 44px;
     padding-top: 80px;
 }
+
+@media screen and (max-width: 1080px) {
+    .what-title {
+        font-size: 80px;
+        margin-top: 120px;
+    }
+
+    .services {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}

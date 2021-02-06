@@ -11,7 +11,7 @@ function App() {
 
     AOS.init();
 
-    return <div>
+    return <div style={{overflow: "hidden", width: "100%"}}>
         <Header />
         <Home />
         <AboutUs />
