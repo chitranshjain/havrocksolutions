@@ -8,10 +8,10 @@ function ServicesCard(props) {
         <Card className="card">
             <Card.Body>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-lg-6 col-sm-12">
                         <img className="service-img" src={props.img}/>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-6 col-sm-12">
                         <h3 className="service-title">{props.title}</h3>
                         <p className="service-desc">{props.desc}</p>
                     </div>
