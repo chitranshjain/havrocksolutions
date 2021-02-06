@@ -1,7 +1,7 @@
 #contact {
-    height: 800px !important;
     background-color: #314e52;
     text-align: center;
+    padding-bottom: 175px;
 }
 
 .contact-title {
@@ -61,8 +61,10 @@
     margin-top: 20px;
 }
 
-@media (max-width:1080px) {
-    #contact {
-        width: 1200px;
-    }
+.details-side {
+    padding: 16px;
+}
+
+.mail-side {
+    padding: 16px;
 }

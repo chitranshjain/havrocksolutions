@@ -1,7 +1,7 @@
 #about {
-    height: 800px !important;
     text-align: center;
     background-color: #314e52;
+    padding-bottom: 120px;
 }
 
 .about-img {
@@ -22,27 +22,4 @@
     font-family: "Lato", sans-serif;
     color: #f7f6e7;
     font-size: 22px;
-}
-
-@media (max-width: 1080px) {
-    #about {
-        width: 1200px;
-        height: 2800px !important;
-    }
-
-    .about-img {  
-        height: 820px;
-        margin-top: 140px;
-    }
-
-    .about-title {
-        margin-top: 180px;
-        font-size: 100px;
-    }
-
-    .about-content {
-        margin-top: 40px;
-        font-size: 45px;
-        text-align: center;
-    }
 }
