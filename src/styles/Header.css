@@ -29,7 +29,6 @@
 .nav-links {
     display: flex;
     padding: 8px 24px 0 0 !important;
-    justify-content: end;
 }
 
 @media (max-width: 1080px) {
