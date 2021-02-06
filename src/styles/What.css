@@ -1,0 +1,24 @@
+#what {
+    height: 800px;
+    background-color: white;
+    text-align: center;
+}
+
+.what-title {
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+    color: #314e52;
+    font-size: 44px;
+    padding-top: 80px;
+}
+
+@media (max-width:1080px) {
+    #what {
+        height: 1800px;
+        width: 1300px;
+    }
+
+    .what-title {
+        font-size: 80px;
+    }
+}

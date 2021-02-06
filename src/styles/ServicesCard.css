@@ -1,0 +1,32 @@
+.service-img {
+    height: 180px;
+}
+
+.services-card {
+    width: 80%;
+    margin: 40px auto 0 auto;
+}
+
+.card {
+    border-radius: 6px;
+    background-color: #314e52;
+}
+
+.card:hover {
+    background-color: #41666b;
+    box-shadow: 4px 4px 12px 6px rgba(49,78,82, 0.4);
+}
+
+.service-title {
+    font-family: "Karla", sans-serif;
+    color: #f2a154;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.service-desc {
+    font-family: "Lato", sans-serif;
+    color: #f7f6e7;
+    text-align: left;
+    font-size: 18px;
+}

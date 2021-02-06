@@ -1,0 +1,62 @@
+#contact {
+    height: 800px !important;
+    background-color: #314e52;
+    text-align: center;
+}
+
+.contact-title {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #f2a154;
+    font-size: 44px;
+    padding-top:60px;
+}
+
+.contact-img {
+    height: 180px;
+}
+
+.contact-us {
+    margin-top: 32px;
+    color: #f7f6e7;
+    font-size: 22px;
+}
+
+.contact-details {
+    text-align: left;
+    margin-left: 168px;
+    margin-top: 40px;
+}
+
+.detail {
+    font-family: 'Lato', sans-serif;
+    color: #f7f6e7;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.contact-form {
+    text-align: left;
+    padding-right: 32px;
+    font-family: 'Lato', sans-serif;
+    color: #f7f6e7;
+    font-size: 18px;
+    margin-top: 16px;
+}
+
+.form-btn {
+    background-color: #f2a154;
+    border: none !important;
+    font-weight: 500;
+}
+
+.form-btn:hover {
+    background-color: #f7f6e7 !important;
+    color: #f2a154;
+    font-weight: 500;
+}
+
+.email-img {
+    height: 160px;
+    margin-top: 20px;
+}

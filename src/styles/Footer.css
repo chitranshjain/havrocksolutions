@@ -1,0 +1,16 @@
+.footer {
+    height: 80px;
+    text-align: center;
+    color: #314e52;
+}
+
+.footer-text {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.footer-text:hover {
+    color: #f2a154;
+}

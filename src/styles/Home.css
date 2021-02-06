@@ -1,0 +1,50 @@
+.home-img {
+    margin-top: 140px;
+    height: 460px !important;
+}
+
+.head-title {
+    display: inline;
+    font-family: 'Sora', sans-serif;
+    color: #f2a154;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 32px;
+}
+
+.heading {
+    margin-top: 44px;
+}
+
+#home {
+    text-align: center;
+    height: 800px;
+    background-color: #e7e6e1;
+}
+
+@media (max-width : 1080px) {
+    .home-img {
+        margin-top: 420px;
+        height: 960px !important;
+    }
+    
+    .head-title {
+        display: inline;
+        font-family: 'Sora', sans-serif;
+        color: #f2a154;
+        font-weight: bold;
+        font-size: 110px;
+        margin-top: 60px;
+    }
+    
+    .heading {
+        margin-top: 180px;
+    }
+    
+    #home {
+        text-align: center;
+        height: 2130px !important;
+        width: 1200px;
+        background-color: #e7e6e1;
+    }
+}
