@@ -21,3 +21,18 @@
     background-color: #e7e6e1;
     padding-bottom: 80px;
 }
+
+@media screen and (max-width: 1080px) {
+    .home-img {
+        height: 810px !important;
+        margin-top: 400px;
+    }
+
+    .heading {
+        margin-top: 120px !important;
+    }
+
+    #home {
+        padding-bottom: 410px;
+    }
+}

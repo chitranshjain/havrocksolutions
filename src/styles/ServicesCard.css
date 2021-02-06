@@ -30,3 +30,22 @@
     text-align: left;
     font-size: 18px;
 }
+
+@media screen and (max-width: 1080px) {
+    .service-img {
+        height: 300px;
+    }
+
+    .card {
+        border-radius: 20px !important;
+        padding: 20px;
+    }
+
+    .service-title {
+        font-size: 60px;
+    }
+
+    .service-desc {
+        font-size: 36px;
+    }
+}

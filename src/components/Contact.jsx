@@ -16,28 +16,28 @@ function ContactUs() {
     return <div id="contact">
         <h2 data-aos="fade-up" className="contact-title">Contact Us</h2>
         <div className="row">
-            <div data-aos = "fade-down" className="col details-side">
+            <div data-aos = "fade-down" className="col-lg-6 col-sm-12 details-side">
                 <img className="contact-img" src={contact} />
                 <h4 className="contact-us">Have something to discuss? Get in touch</h4>
                 <div className="contact-details">
-                    <div className="detail"><i class="fas fa-phone-alt"></i>&emsp;&emsp;+91-9876543210</div>
-                    <div className="detail"><i class="fas fa-envelope"></i>&emsp;&emsp;hello@mymail.com</div>
-                    <div className="detail"><i class="fas fa-map-marker-alt"></i>&emsp;&emsp;&nbsp;Flat No 703, Tower L, Homes 121, Gh 001, Sector 121, Noida &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gautam Buddha Nagar, UP - 201307</div>
+                    <div className="detail row"><div className="col-lg-3 col-sm-3"><i className="fas fa fa-phone-alt"></i></div><div className="col-lg-9 col-sm-9">+91-9876543210</div></div>
+                    <div className="detail row"><div className="col-lg-3 col-sm-3"><i className="fas fa fa-envelope"></i></div><div className="col-lg-9 col-sm-9">hello@mymail.com</div></div>
+                    <div className="detail row"><div className="col-lg-3 col-sm-3"><i className="fas fa fa-map-marker-alt"></i></div><div className="col-lg-9 col-sm-9">Flat No 703, Tower L, Homes 121, Gh 001, Sector 121, Noida, Gautam Buddha Nagar, UP - 201307</div></div>
                 </div>
             </div>
-            <div data-aos = "fade-down" className="col mail-side">
+            <div data-aos = "fade-down" className="col-lg-6 col-sm-12 mail-side">
                 <img className="contact-img email-img" src={email} />
                 <div className="contact-form">
                     <Form>
-                        <Form.Group controlId="name">
+                        <Form.Group className = "form-group" controlId="name">
                             <Form.Label className="form-label">Name</Form.Label>
                             <Form.Control className="form-input" type="text" placeholder="Eg. John Doe" />
                         </Form.Group>
-                        <Form.Group controlId="email">
+                        <Form.Group className = "form-group" controlId="email">
                             <Form.Label className="form-label">Email</Form.Label>
                             <Form.Control className="form-input" type="email" placeholder="Eg. johndoe@example.com" />
                         </Form.Group>
-                        <Form.Group controlId="phone">
+                        <Form.Group className = "form-group" controlId="phone">
                             <Form.Label className="form-label">Phone</Form.Label>
                             <Form.Control className="form-input" type="text" placeholder="Eg. +91-9876543210" />
                         </Form.Group>
