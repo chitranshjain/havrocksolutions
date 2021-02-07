@@ -6,41 +6,46 @@
 }
 
 .navbar.active {
-    background-color: #f2a154;
+    background-color: #aaaaaa;
 }
 
 .navbar-brands.active {
-    color: #fdf9c2 !important;
+    color: #f4f9f9 !important;
 }
 
 .navbar-brands.active:hover {
-    color: #ffffff !important;
+    color: #ccf2f4 !important;
 }
 
 .navbar-brands:hover {
-    color: #f57d0c !important;
+    color: #ccf2f4 !important;
 }
 
 .nav-link {
-    color: #f5ad6a !important;
+    color: #f4f9f9 !important;
     font-weight: 600;
 }
 
 .nav-link.active {
-    color: #fdf9c2 !important;
+    color: #f4f9f9 !important;
 }
 
 .nav-link.active:hover {
-    color: #ffffff !important;
+    color: #ccf2f4 !important;
 }
 
 .nav-link:hover {
-    color: #f57d0c !important; 
+    color: 
+    #ccf2f4 !important; 
+}
+
+.nav-items {
+    padding-right: 24px;
 }
 
 .navbar-brands {
-    color: #f2a154 !important;
-    font-family: 'Sora', sans-serif;
+    color: #f4f9f9 !important;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 32px;
     font-weight: bold;
     padding: 8px 0 0 16px;
@@ -54,11 +59,21 @@
 @media screen and (max-width:1080px) {
 
     .navbar-brand {
-        font-size: 50px !important;
+        font-size: 60px !important;
     }
 
     .nav-link {
         text-align: center;
         font-size: 32px;
+    }
+
+    .navbar-toggler-icon {
+        height: 3em;
+        width: 3em;
+        color: #f4f9f9 !important;
+    }
+
+    .nav-toggle {
+        margin-right: 16px;
     }
 }

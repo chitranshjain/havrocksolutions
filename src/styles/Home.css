@@ -1,38 +1,65 @@
-.home-img {
-    margin-top: 140px;
-    height: 460px !important;
-}
-
 .head-title {
     display: inline;
-    font-family: 'Sora', sans-serif;
-    color: #f2a154;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #f4f9f9;
     font-weight: bold;
     font-size: 60px;
     margin-top: 32px;
+}
+
+.name-container {
+    margin-top: 185px;
+    margin-bottom: 285px;
+    text-align: left;
+    margin-left: 80px;
 }
 
 .heading {
     margin-top: 44px;
 }
 
+.desc-main {
+    margin-top: 60px;
+}
+
+.home-desc{
+    
+    font-family: 'Lato', sans-serif;
+    color: #ccf2f4
+}
+
 #home {
     text-align: center;
-    background-color: #e7e6e1;
-    padding-bottom: 80px;
+    background-image: url(../assets/background2.jpg);
+    background-size: cover;
 }
 
 @media screen and (max-width: 1080px) {
-    .home-img {
-        height: 810px !important;
-        margin-top: 400px;
+
+    .name-container {
+        margin-top: 480px;
+        margin-left: 60px;
     }
 
     .heading {
         margin-top: 120px !important;
     }
 
+    .head-title {
+        font-size: 110px;
+    }
+
+    .desc-main {
+        margin-top: 160px;
+    }
+    
+    .desc{
+        font-size: 50px;
+        font-weight: 600;
+    }
+
     #home {
         padding-bottom: 410px;
+        background-position:center;
     }
 }
