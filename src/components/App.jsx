@@ -5,6 +5,7 @@ import AboutUs from "./About";
 import What from "./What";
 import ContactUs from "./Contact";
 import Footer from "./Footer";
+import TestimonialCarousel from "./Testimonials";
 import AOS from "aos";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Home />
         <AboutUs />
         <What />
+        <TestimonialCarousel />
         <ContactUs />
         <Footer />
     </div>
