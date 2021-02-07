@@ -16,17 +16,17 @@ function What() {
 
     return <div id="why">
         <h2 data-aos="zoom-in-up" className="what-title">WHY US?</h2>
-        <div data-aos="flip-up" className="row reasons-row">
-            <div className="col col-lg-3 col-sm-12 ontime">
+        <div className="row reasons-row">
+            <div data-aos="fade-down" data-aos-duration="3000" className="col col-lg-3 col-sm-12 ontime">
                 <WhyUsCard img={clock} title="On time delivery" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
             </div>
-            <div className="col col-lg-3 col-sm-12 trust">
+            <div data-aos="fade-up" data-aos-duration="1500" className="col col-lg-3 col-sm-12 trust">
                 <WhyUsCard img={trust} title="Trusted" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
             </div>
-            <div className="col col-lg-3 col-sm-12 quality">
+            <div data-aos="fade-down" data-aos-duration="3000" className="col col-lg-3 col-sm-12 quality">
                 <WhyUsCard img={excellence} title="Quality" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
             </div>
-            <div className="col col-lg-3 col-sm-12 satisfaction">
+            <div data-aos="fade-up" data-aos-duration="1500" className="col col-lg-3 col-sm-12 satisfaction">
                 <WhyUsCard img={satisfaction} title="Customer Satisfaction" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
             </div>
         </div>
