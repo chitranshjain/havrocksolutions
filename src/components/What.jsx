@@ -15,8 +15,8 @@ function What() {
     });
 
     return <div id="why">
-        <h2 className="what-title">WHY US?</h2>
-        <div className="row reasons-row">
+        <h2 data-aos="zoom-in-up" className="what-title">WHY US?</h2>
+        <div data-aos="flip-up" className="row reasons-row">
             <div className="col col-lg-3 col-sm-12 ontime">
                 <WhyUsCard img={clock} title="On time delivery" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
             </div>

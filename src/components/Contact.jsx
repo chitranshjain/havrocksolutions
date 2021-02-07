@@ -14,10 +14,10 @@ function ContactUs() {
     });
 
     return <div id="contact">
-        <h2 className="contact-title">CONTACT US</h2>
-        <p className="contact-text">Have a project? Get it done by experts.</p>
+        <h2 data-aos="fade-in" className="contact-title">CONTACT US</h2>
+        <p data-aos="fade-in" className="contact-text">Have a project? Get it done by experts.</p>
         <div className="row">
-            <div className="col-lg-6 col-sm-12 details-side">
+            <div data-aos="zoom-in-left" className="col-lg-6 col-sm-12 details-side">
                 <img className="contact-img" src={contact} />
                 <h4 className="contact-us">Here's how you can reach out to us.</h4>
                 <div className="contact-details">
@@ -26,7 +26,7 @@ function ContactUs() {
                     <div className="detail row"><div className="col-lg-1 col-sm-1 icon"><i className="fas fa fa-map-marker-alt"></i></div><div className="col-lg-11 col-sm-11">Flat No 703, Tower L, Homes 121, Gh 001, Sector 121, Noida, Gautam Buddha Nagar, UP - 201307</div></div>
                 </div>
             </div>
-            <div className="col-lg-6 col-sm-12 mail-side">
+            <div data-aos="zoom-in-right" className="col-lg-6 col-sm-12 mail-side">
                 <img className="contact-img email-img" src={email} />
                 <h4 className="contact-us">Drop your contact details here.</h4>
                 <div className="contact-form">

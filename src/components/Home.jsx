@@ -7,26 +7,26 @@ import 'aos/dist/aos.css';
 function Home() {
 
     AOS.init({
-        duration: 2500
+        duration: 3000
     });
 
     return <div id="home">
     <div className="row container-fluid">
         <div className="col-lg-6 col-sm-12 container-fluid name-container">
-            <div>
+            <div data-aos="fade-up">
                 <h1 className="head-title">HAVROCK</h1>
             </div>
-            <div>
+            <div data-aos="fade-up">
                 <h1 className="head-title">SOLUTIONS</h1>
             </div>
             
-            <div className="home-desc desc-main">
+            <div data-aos="fade-down" className="home-desc desc-main">
                 <h2 className="desc">We create</h2>
             </div>
-            <div className="home-desc">
+            <div data-aos="fade-down" className="home-desc">
                 <h2 className="desc">powerful, innovative and futuristic</h2>
             </div>
-            <div className="home-desc">
+            <div data-aos="fade-down" className="home-desc">
                 <h2 className="desc">business solutions.</h2>
             </div>
         </div>
