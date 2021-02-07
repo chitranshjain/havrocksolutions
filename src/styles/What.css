@@ -1,21 +1,37 @@
-#what {
-    background-color: white;
+#why {
+    background-color: #ccf2f4;
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 160px;
 }
 
 .what-title {
-    font-family: 'Karla', sans-serif;
-    font-weight: bolder;
-    color: #314e52;
-    font-size: 44px;
-    padding-top: 80px;
+    font-family: 'Sora', sans-serif;
+    font-weight: bold;
+    color: #494949;
+    font-size: 40px;
+    padding-top:80px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.ontime, .quality {
+    margin-top: 80px;
+}
+
+.reasons-row {
+    margin-top: 60px;
+    margin-right: 16px;
 }
 
 @media screen and (max-width: 1080px) {
     .what-title {
         font-size: 80px;
-        margin-top: 120px;
+        padding-top: 120px;
+    }
+
+    
+    .ontime, .quality, .trust, .satisfaction {
+        margin-top: 80px;
     }
 
     .services {

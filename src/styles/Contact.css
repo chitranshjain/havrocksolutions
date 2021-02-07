@@ -1,15 +1,30 @@
 #contact {
-    background-color: #314e52;
+    background-color: #f4f9f9;
     text-align: center;
     padding-bottom: 175px;
 }
 
+.icon {
+    text-align: right;
+}
+
 .contact-title {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Sora', sans-serif;
     font-weight: bold;
-    color: #f2a154;
-    font-size: 44px;
+    color: #494949;
+    font-size: 40px;
     padding-top:60px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.contact-text {
+    font-family: "Lato", sans-serif;
+    color: #807f7f;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .contact-img {
@@ -18,7 +33,7 @@
 
 .contact-us {
     margin-top: 32px;
-    color: #f7f6e7;
+    color: #494949;
     font-size: 22px;
 }
 
@@ -30,7 +45,7 @@
 
 .detail {
     font-family: 'Lato', sans-serif;
-    color: #f7f6e7;
+    color: #807f7f;
     font-size: 18px;
     margin-top: 16px;
 }
@@ -39,20 +54,22 @@
     text-align: left;
     padding-right: 32px;
     font-family: 'Lato', sans-serif;
-    color: #f7f6e7;
+    color: #807f7f;
     font-size: 18px;
     margin-top: 16px;
 }
 
 .form-btn {
-    background-color: #f2a154;
+    background-color: #72eef7;
     border: none !important;
     font-weight: 500;
+    color: #807f7f;
+    border-radius: 6px;
 }
 
 .form-btn:hover {
-    background-color: #f7f6e7 !important;
-    color: #f2a154;
+    background-color: #21c0d1 !important;
+    color: #f4f9f9;
     font-weight: 500;
 }
 
@@ -106,5 +123,9 @@
     .form-btn {
         font-size: 36px;
         margin-top: 40px;
+    }
+
+    .contact-text {
+        font-size: 40px;
     }
 }

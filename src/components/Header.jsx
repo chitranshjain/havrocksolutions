@@ -18,14 +18,14 @@ function Header() {
   window.addEventListener("scroll", changeBackground);
 
     return <div><Navbar fixed="top" className={navbar? "navbar active" : "navbar"} collapseOnSelect expand="lg">
-    <Navbar.Brand className={navbar? "navbar-brands active" : "navbar-brands"} href="#home">Havrock Solutions</Navbar.Brand>
+    <Navbar.Brand className={navbar? "navbar-brands active" : "navbar-brands"} href="#home">HAVROCK SOLUTIONS</Navbar.Brand>
     <Navbar.Toggle className="nav-toggle" aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
       <div className="nav-items"><Nav className="mr-auto">
-        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#home">Home</Nav.Link>
-        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#about">About Us</Nav.Link>
-        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#what">What We Do?</Nav.Link>
-        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#contact">Contact Us</Nav.Link>
+        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#home">HOME</Nav.Link>
+        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#about">ABOUT US</Nav.Link>
+        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#why">WHY US?</Nav.Link>
+        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#contact">CONTACT US</Nav.Link>
       </Nav></div>
     </Navbar.Collapse>
   </Navbar>

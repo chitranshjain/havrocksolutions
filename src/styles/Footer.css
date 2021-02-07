@@ -1,7 +1,8 @@
 .footer {
     height: 80px;
     text-align: center;
-    color: #314e52;
+    background-color: #aaaaaa;
+    color: #f4f9f9;
 }
 
 .footer-text {
@@ -12,7 +13,7 @@
 }
 
 .footer-text:hover {
-    color: #f2a154;
+    color: #a4ebf3;
 }
 
 @media screen and (max-width: 1080px) {

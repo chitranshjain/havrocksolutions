@@ -1,10 +1,12 @@
 import React from "react";
-import ServicesCard from "./ServicesCard";
 import "../styles/What.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import openerp from "../assets/openerp.png";
-import reactnative from "../assets/reactnative.png";
+import WhyUsCard from "./WhyUsCard";
+import clock from "../assets/clock.png";
+import trust from "../assets/trust.png";
+import satisfaction from "../assets/satisfaction.png";
+import excellence from "../assets/excellence.png";
 
 function What() {
 
@@ -12,11 +14,21 @@ function What() {
         duration: 3000
     });
 
-    return <div id="what">
-        <h2 data-aos="flip-left" className="what-title">What We Do?</h2>
-        <div data-aos="flip-up" className="services">
-            <ServicesCard duration="1000" img={openerp} title="OpenERP" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Amet volutpat consequat mauris nunc congue. Varius quam quisque id diam vel quam elementum pulvinar etiam."/>
-            <ServicesCard duration="6000" img={reactnative} title="React Native" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Amet volutpat consequat mauris nunc congue. Varius quam quisque id diam vel quam elementum pulvinar etiam."/>
+    return <div id="why">
+        <h2 data-aos="zoom-in-up" className="what-title">WHY US?</h2>
+        <div data-aos="flip-up" className="row reasons-row">
+            <div className="col col-lg-3 col-sm-12 ontime">
+                <WhyUsCard img={clock} title="On time delivery" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
+            </div>
+            <div className="col col-lg-3 col-sm-12 trust">
+                <WhyUsCard img={trust} title="Trusted" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
+            </div>
+            <div className="col col-lg-3 col-sm-12 quality">
+                <WhyUsCard img={excellence} title="Quality" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
+            </div>
+            <div className="col col-lg-3 col-sm-12 satisfaction">
+                <WhyUsCard img={satisfaction} title="Customer Satisfaction" desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra diam sit amet nunc luctus semper. Donec vitae lacus purus. Nunc pulvinar urna sit amet posuere auctor. Praesent euismod neque sit amet commodo lobortis." />
+            </div>
         </div>
     </div>
 }

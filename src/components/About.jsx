@@ -1,25 +1,44 @@
 import React from "react";
-import about from "../assets/about.png";
 import "../styles/About.css";
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import ServicesCard from "./ServicesCard";
+import openerp from "../assets/openerp.png";
+import reactnative from "../assets/reactnative.png";
+import unity from "../assets/unity.png";
+import mobile from "../assets/mobile.png";
 
 function AboutUs() {
 
     AOS.init({duration: 3000});
 
     return <div id="about">
-        <div className="row container-fluid">
-            <div data-aos="fade-down" className="col-lg-6 col-sm-12">
-                <img className="about-img" src={about}/>
-            </div>
-            <div data-aos="fade-up" className="col-lg-6 col-sm-12">
-                <h2 className="about-title">About Us</h2>
-                <p className="about-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Amet volutpat consequat mauris nunc congue. Varius quam quisque id diam vel quam elementum pulvinar etiam. Lacus luctus accumsan tortor posuere. Purus non enim praesent elementum facilisis leo vel. Tristique magna sit amet purus gravida. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Venenatis lectus magna fringilla urna porttitor rhoncus dolor.</p>
-                <p className="about-content">Faucibus nisl tincidunt eget nullam. Auctor augue mauris augue neque gravida in fermentum et. Consequat mauris nunc congue nisi vitae. Enim nulla aliquet porttitor lacus luctus accumsan. Aliquet bibendum enim facilisis gravida neque. Praesent tristique magna sit amet purus. Commodo quis imperdiet massa tincidunt nunc. Vulputate eu scelerisque felis imperdiet proin fermentum. Magna sit amet purus gravida quis blandit turpis cursus.</p>
+            <div className="row">
+                <div data-aos="fade-right" className="col col-lg-6 col-sm-12 about-content">
+                    <div className="about-title">ABOUT US</div>
+                    <div className="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis nisi a neque accumsan venenatis. Sed leo massa, commodo sed nibh eget, hendrerit semper nibh. In sodales placerat lorem, sed rhoncus nulla. Etiam eget tempor nisl. Nulla efficitur, magna in pellentesque cursus, lacus erat convallis diam, nec iaculis metus metus ac neque</div>
+                    <div className="about-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis nisi a neque accumsan venenatis. Sed leo massa, commodo sed nibh eget, hendrerit semper nibh. In sodales placerat lorem, sed rhoncus nulla. Etiam eget tempor nisl. Nulla efficitur, magna in pellentesque cursus, lacus erat convallis diam, nec iaculis metus metus ac neque</div>
+                </div>
+                <div data-aos="fade-left" className="col services-container">
+                    <div className="row">
+                        <div className="col-lg-6 col-sm-12">
+                            <ServicesCard img={openerp} title="ERP Development"/>
+                        </div>
+                        <div className="col-lg-6 col-sm-12">
+                            <ServicesCard img={reactnative} title="React Native" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-6 col-sm-12">
+                            <ServicesCard img={unity} title="Game Development" />
+                        </div>
+                        <div className="col-lg-6 col-sm-12">
+                            <ServicesCard img={mobile} title="Mobile Development"  />
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 }
 
 export default AboutUs;
