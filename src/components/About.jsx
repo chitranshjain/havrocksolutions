@@ -10,7 +10,7 @@ import mobile from "../assets/mobile.png";
 
 function AboutUs() {
 
-    AOS.init({duration: 3000});
+    AOS.init({duration: 1500});
 
     return <div id="about">
             <div className="row">

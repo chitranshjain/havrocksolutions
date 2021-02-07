@@ -10,7 +10,9 @@ import AOS from "aos";
 
 function App() {
 
-    AOS.init();
+    AOS.init({
+        duration: 1500
+    });
 
     return <div style={{overflow: "hidden", width: "100%"}}>
         <Header />

@@ -10,7 +10,7 @@ import "aos/dist/aos.css";
 function ContactUs() {
 
     AOS.init({
-        duration: 2000
+        duration: 1500
     });
 
     return <div id="contact">

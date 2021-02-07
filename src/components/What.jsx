@@ -11,7 +11,7 @@ import excellence from "../assets/excellence.png";
 function What() {
 
     AOS.init({
-        duration: 3000
+        duration: 1500
     });
 
     return <div id="why">
