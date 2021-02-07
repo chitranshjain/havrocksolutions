@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 function Home() {
 
     AOS.init({
-        duration: 3000
+        duration: 1500
     });
 
     return <div id="home">
