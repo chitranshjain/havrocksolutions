@@ -37,7 +37,7 @@
 @media screen and (max-width: 1080px) {
 
     .name-container {
-        margin-top: 480px;
+        margin-top: 540px;
         margin-left: 60px;
     }
 
@@ -50,7 +50,7 @@
     }
 
     .desc-main {
-        margin-top: 180px;
+        margin-top: 160px;
     }
     
     .desc{
@@ -59,7 +59,7 @@
     }
 
     #home {
-        padding-bottom: 430px;
+        padding-bottom: 510px;
         background-position:center;
     }
 }
