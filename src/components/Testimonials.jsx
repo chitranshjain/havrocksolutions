@@ -6,7 +6,7 @@ import myimage from "../assets/MyImage2.jpg";
 import aditya from "../assets/aditya.jpg";
 
 function TestimonialCarousel() {
-    return <div data-aos="fade-up" id="testimonials">
+    return <div data-aos="fade-in" id="testimonials">
     <h2 className="testimonial-title">TESTIMONIALS</h2>
     <p className="testimonial-text">Hear what our clients have to say about our services.</p>
         <Carousel>
