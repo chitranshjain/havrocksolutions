@@ -25,6 +25,7 @@ function Header() {
         <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#home">HOME</Nav.Link>
         <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#about">ABOUT US</Nav.Link>
         <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#why">WHY US?</Nav.Link>
+        <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#testimonials">TESTIMONIALS</Nav.Link>
         <Nav.Link className={navbar? "nav-link active" : "nav-link"} href="#contact">CONTACT US</Nav.Link>
       </Nav></div>
     </Navbar.Collapse>
